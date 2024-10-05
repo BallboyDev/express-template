@@ -1,0 +1,7 @@
+curl -X GET 'localhost:3010/api/file/test?path=&name=test&type=dir'
+
+curl -X POST localhost:3010/api/file/create -H "Content-Type: application/json" -d '{"path": "","name": "test","type": "file"}'
+
+curl localhost:3010/api/file/test
+
+curl -X POST localhost:3010/api/file/delete -H "Content-Type: application/json" -d '{"path": "","name": "ex_folder","type": "file"}'
