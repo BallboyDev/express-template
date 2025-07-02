@@ -1,23 +1,20 @@
 {
-  "name": "express-training",
+  "name": "express-template",
   "version": "1.0.0",
-  "main": "app.js",
-  "scripts": {
-    "start": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "1. ***main***     - 가장 표준의 메인 template 2. template/basic     - 나의 스타일대로 변경된 기초 template 3. template/basic-ts     - ts가 적용된 basic template 4. template/simple     - 정말 최소한의 서버 기능",
+  "homepage": "https://github.com/BallboyDev/express-template#readme",
+  "bugs": {
+    "url": "https://github.com/BallboyDev/express-template/issues"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BallboyDev/express-template.git"
+  },
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "cookie-parser": "^1.4.6",
-    "dotenv": "^16.4.5",
-    "express": "^4.21.0",
-    "express-session": "^1.18.0",
-    "morgan": "^1.10.0",
-    "multer": "^1.4.5-lts.1"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.7"
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
