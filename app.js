@@ -63,7 +63,8 @@ app.get('/upload', (req, res) => {
 })
 
 app.post('/upload',
-    upload.fields([{ name: 'image1' }, { name: 'image2' }]),
+    upload.any(), // 모든 파일을 필드 이름이나 개수 상관없이 전부 수락
+    // upload.fields(...) // 특정 필드 명의 파일만 업로드
     (req, res) => {
         console.log(req, files, req.body)
         res.send('ok')
