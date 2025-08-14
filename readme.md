@@ -1,10 +1,10 @@
-# Ballboy's Express.js server template repo
-## List
-1. ***main***
-    - 가장 표준의 메인 template
-2. template/basic
-    - 나의 스타일대로 변경된 기초 template
-3. template/basic-ts
-    - ts가 적용된 basic template
-4. template/simple
-    - 정말 최소한의 서버 기능
+## Express template
+
+### template.basic
+- 표준적인 express 서버
+
+### template.fullset
+- 완성형 express 서버
+
+### template.simple
+- 가장 기초 적인 express 서버

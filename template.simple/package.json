@@ -1,0 +1,20 @@
+{
+  "name": "express-template",
+  "version": "1.0.0",
+  "description": "1. ***main***     - 가장 표준의 메인 template 2. template/basic     - 나의 스타일대로 변경된 기초 template 3. template/basic-ts     - ts가 적용된 basic template 4. template/simple     - 정말 최소한의 서버 기능",
+  "homepage": "https://github.com/BallboyDev/express-template#readme",
+  "bugs": {
+    "url": "https://github.com/BallboyDev/express-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BallboyDev/express-template.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
