@@ -6,3 +6,5 @@
     - 나의 스타일대로 변경된 기초 template
 3. template/basic-ts
     - ts가 적용된 basic template
+4. template/simple
+    - 정말 최소한의 서버 기능
